@@ -2,10 +2,10 @@
 
 package com.lightcrafts.utils;
 
-import com.sun.media.jai.util.ImageUtil;
+import org.eclipse.imagen.media.util.ImageUtil;
 
-import javax.media.jai.RasterAccessor;
-import javax.media.jai.RasterFormatTag;
+import org.eclipse.imagen.RasterAccessor;
+import org.eclipse.imagen.RasterFormatTag;
 import java.awt.*;
 import java.awt.color.ICC_Profile;
 import java.awt.image.ColorModel;

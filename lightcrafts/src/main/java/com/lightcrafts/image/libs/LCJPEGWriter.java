@@ -27,7 +27,7 @@ import java.awt.image.RenderedImage;
 import java.awt.image.WritableRaster;
 import java.io.IOException;
 import java.nio.ByteBuffer;
-import javax.media.jai.PlanarImage;
+import org.eclipse.imagen.PlanarImage;
 import org.w3c.dom.Document;
 
 import static com.lightcrafts.image.libs.LCJPEGConstants.CS_CMYK;

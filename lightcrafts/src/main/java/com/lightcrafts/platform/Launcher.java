@@ -54,7 +54,7 @@ public class Launcher {
 
     protected void setSystemProperties() {
         System.setProperty("awt.useSystemAAFontSettings", "lcd");
-        System.setProperty("com.sun.media.jai.disableMediaLib", "true");
+        System.setProperty("org.eclipse.imagen.media.disableMediaLib", "true");
     }
 
     protected void showAppVersion() {
@@ -87,4 +87,3 @@ public class Launcher {
     }
 
 }
-
